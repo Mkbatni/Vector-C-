@@ -5,11 +5,11 @@ Vector liberary with more features than the C++ standard library vector
 
 
 Vector<double> doubleVec{1.5, 2.5 , 3.5, 4.5};
-	Vector<int> iv(intVec);
-	Vector<double> dv(doubleVec);
-	cout << "intVec" << intVec << endl; 
-// "intVec(1, 3, 5, 7, 9)" 
-	cout << "iv" << iv << endl; 
+Vector<int> iv(intVec);
+Vector<double> dv(doubleVec);
+		cout << "intVec" << intVec << endl; 
+		// "intVec(1, 3, 5, 7, 9)" 
+		cout << "iv" << iv << endl; 
 // "iv(1, 3, 5, 7, 9)"
 	cout << "doubleVec" << doubleVec << endl; 
 // "doubleVec(1.5, 2.5, 3.5, 4.5)" 
